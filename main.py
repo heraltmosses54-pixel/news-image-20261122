@@ -1314,6 +1314,7 @@ def out_path():
         return "/output/entry.png"
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
 
+
 # ------------------------------------------------------------- world map
 # Land runs on a 112x41 equirectangular grid (lon -180..180, lat 80..-56):
 # (row, first_col, last_col). Dots are drawn for every land cell.
@@ -1484,6 +1485,7 @@ MARKERS = [
 ]
 
 CREDITS = "22 November 2026 - COP31 - US House - Kyiv - Banten - Mercury"
+
 
 # ---------------------------------------------------------------- layout
 def card(x, y, w, story):
